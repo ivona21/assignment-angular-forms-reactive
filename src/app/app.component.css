@@ -1,0 +1,24 @@
+.container {
+  margin-top: 30px;
+}
+
+input.ng-invalid.ng-touched, select.ng-invalid.ng-touched {
+  border: solid red 1px;
+}
+
+input.ng-pending.ng-touched, select.ng-pending.ng-touched {
+  border: solid orange 1px;
+}
+
+input.ng-valid.ng-touched, select.ng-valid.ng-touched {
+  border: solid green 1px;
+}
+
+.warning-message {
+  color: red;
+  font-style: italic;
+}
+
+.success-message {
+  color: green;  
+}
